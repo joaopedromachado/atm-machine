@@ -1,0 +1,22 @@
+1.Faça um algoritmo com as funções de um caixa eletrônico de Banco. 
+- Utilize estrutura de repetição para resolver a questão. 
+- Ao rodar o algoritmo deve ser solicitado a conta corrente numérica do cliente em seguida apresentar o seguinte Menu:
+
+	-------------------
+	| MENU: 		  |
+	|                 |
+	|  1 - Saldo      |
+	|  2 - Saque      |
+	|  3 - Deposito   |
+	|  4 - Sair       |
+    -------------------
+    Escolher a opção: 
+
+- O algoritmo deve executar as operações de apenas esse cliente até que ele digite a opção 4 - Sair.
+- Caso o cliente digite uma opção que não exista informe "Opção invalida".
+- Algoritmo deve operar as quatro funções do caixa eletrônico.
+- O Saldo inicial é igual a 0,00.
+- O deposito soma um valor ao saldo.
+- O saque subtrai um valor ao saldo.
+- Caso o usuário tente sacar um valor maior que o saldo disponível o programa deve apresentar a mensagem "Saldo insuficiente".
+- No final de cada operação deve ser apresentada a conta corrente desse cliente e seu saldo atual.
